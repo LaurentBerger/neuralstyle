@@ -1,0 +1,5 @@
+include ':app', ':opencv412'
+rootProject.name='NeuralStyle'
+include ':java'
+include ':opencv412'
+project(':opencv412').projectDir = new File('g:/lib/install/opencv/sdk')
